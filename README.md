@@ -37,11 +37,42 @@ a Mac.
     * Because RobotPy uses the `pyproject.toml` that is in `xrpPythonWpiLib` the Change directory (cd) to the directory where you downloaded and perhaps unzip `xrpPythonWpiLib`:
        ```commandline
        cd C:\Users\MikeStitt\Documents\first\sw\xrpPythonWpiLib
+       ```
+
+       ```commandline
        pwd
+       ```
     
+       results in:
+
+      ```commandline
        Path
        ----
-       C:\Users\MikeStitt\Documents\first\sw\xrpPythonWpiLib
+       C:\Users\MikeStitt\Documents\first\sw\xrpPythonWpiLib 
+       ```
+       for reference, a dir command
+       ```commandline
+       dir
+       ```
+
+       results in something like this:
+
+       ```commandline
+
+       Directory: C:\Users\MikeStitt\Documents\first\sw\xrpPythonWpiLib
+
+       Mode                 LastWriteTime         Length Name
+       ----                 -------------         ------ ----
+       d-----          4/7/2024  11:53 AM                commands
+       d-----          4/7/2024  11:53 AM                subsystems
+       d-----          4/7/2024  11:53 AM                vendordeps
+       -a----          4/7/2024  11:53 AM             27 .deploy_cfg
+       -a----          4/7/2024  11:53 AM             98 .gitignore
+       -a----          4/7/2024  11:53 AM           1739 constants.py
+       -a----          4/7/2024  11:53 AM            636 pyproject.toml
+       -a----          4/7/2024  11:53 AM          14690 README.md
+       -a----          4/7/2024  11:53 AM           2427 robot.py
+       -a----          4/7/2024  11:53 AM            858 robotcontainer.py
        ```
     * Verify that your Python command is python 
        ```commandline
